@@ -58,10 +58,6 @@ body h1 {
 
 }	
 
-.show {	
-    display: flex;	
-}	
-
 .project-card p {	
     text-align: center;	
     color: rgb(162, 168, 173);	
