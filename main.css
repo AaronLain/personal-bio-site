@@ -1,25 +1,27 @@
-.nav-list {	
+.nav-links {	
     background-color: transparent;	
-    list-style-type: none;	
-    margin: 0;	
-    overflow: hidden;	
-    padding: 0;	
+    display: flex;
     text-align: center;	
+    justify-content: center;
+    margin: 0 auto;
+    padding: 0;
 }	
 
-.nav-list li {	
-    display: inline-block;	
+.nav-links li {	
+    display: flex;
+    flex-flow: row wrap;	
 }	
 
-.nav-list li a{	
+.nav-links li a{	
     color: white;	
-    display: block;	
     padding: 14px 16px;	
     text-align: center;	
     text-decoration: none;	
+    justify-content: center;
+    font-size: 20px;
 }	
 
-.nav-list li a:hover {	
+.nav-links li a:hover {	
     background-color: rgb(90, 102, 114);	
     cursor: pointer;	
 }	
@@ -28,9 +30,16 @@
 body {	
     background-color: slategray;	
     color: floralwhite;	
-    font-family: 'Libre Franklin', sans-serif;	
-
+    font-family: 'Bebas Neue', cursive;
 }	
+
+body h1 {
+    text-align: center;
+    justify-content: center;
+    font-size: 400%;
+    margin: 0 auto;
+
+}
 
 .projectsPage {	
     background-color: steelblue;	
