@@ -21,7 +21,7 @@ const createProjectCards = (projectArray) => {
     let domString ='';	
     projectArray.forEach((project) => { 	
         if (project.available) {	
-            domString +=    `<div class="project-card">`           	
+            domString += `<div class="project-card">`           	
             domString +=    `<header class="cardheader"><h2>${project.title}</h2></header>`;	
             domString +=    `<img src=${project.screenshot} alt="A screen shot of my ${project.title} project!">`;	
             domString +=    `<h3>Technology Used:<h3>`;	
