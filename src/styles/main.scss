@@ -2,36 +2,29 @@
 @import "~@fortawesome/fontawesome-free/css/all.min.css";
 
 
-
-
-nav.bg-light {
+nav.navbar-light {
   background-color: transparent !important;
 }
 
 body {	
     background-color: slategray;	
     color: floralwhite;	
-    font-family: 'Bebas Neue', cursive;
+    
 }	
-
-body h1 {
-    text-align: center;
-    justify-content: center;
-    font-size: 400%;
-    margin: 0 auto;
-
-}
-div#bioPage {
-    display: flex;
-    justify-content: center;
-    width: 100%;
-}
 
 div#projectsPage {	
     background-color: steelblue;	
     display: flex;	
     flex-direction: row wrap;
-}	
+}
+
+h1 {
+  font-family: 'Anton', sans-serif;
+}
+
+p {
+  font-family: 'Oswald', sans-serif;
+}
 
 .bio {
     flex: 0 0 33.3%;
