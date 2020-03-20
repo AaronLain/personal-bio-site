@@ -1,16 +1,18 @@
 @import "~bootstrap/scss/bootstrap";
 @import "~@fortawesome/fontawesome-free/css/all.min.css";
 
-
-nav.navbar-light {
-  background-color: transparent !important;
+body {
+  background-color: ;
 }
 
-body {	
-    background-color: slategray;	
-    color: floralwhite;	
-    
-}	
+nav.navbar-light {
+  background-color: rgba(129, 129, 129, 0.96) !important;
+}
+
+body.fullPage {
+  background-color: slategray;
+  color: whitesmoke;
+}
 
 div#projectsPage {	
     background-color: steelblue;	
@@ -20,10 +22,12 @@ div#projectsPage {
 
 h1 {
   font-family: 'Anton', sans-serif;
+  color: whitesmoke;
 }
 
 p {
   font-family: 'Oswald', sans-serif;
+  color: whitesmoke;
 }
 
 .bio {
