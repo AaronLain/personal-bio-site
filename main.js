@@ -31,13 +31,13 @@ const projects = [
 }
 ]
 
-const printToDom = (divId, textToPrint) =>{	
-    const selectedDiv = document.getElementById(divId);	
+const printToDom = (divId, textToPrint) =>{
+    const selectedDiv = document.getElementById(divId); 
     selectedDiv.innerHTML = textToPrint;	
 }	
 
 const createProjectCards = (projectArray) => {	
-    let domString ='';	
+  let domString ='';	
     projectArray.forEach((project) => { 	
         if (project.available) {	
             domString += `<div class="project-card">`           	
