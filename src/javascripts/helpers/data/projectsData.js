@@ -30,4 +30,4 @@ const projects = [
 
 const getProjects = () => projects;
 
-export default getProjects;
+export default { getProjects };
