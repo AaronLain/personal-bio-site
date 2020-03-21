@@ -1,10 +1,6 @@
 @import "~bootstrap/scss/bootstrap";
 @import "~@fortawesome/fontawesome-free/css/all.min.css";
 
-body {
-  background-color: ;
-}
-
 nav.navbar-light {
   background-color: rgba(129, 129, 129, 0.96) !important;
 }
@@ -30,80 +26,3 @@ p {
   color: whitesmoke;
 }
 
-.bio {
-    flex: 0 0 33.3%;
-}
-
-.left {
-    background-color: lightgreen;
-}
-
-.middle {
-    background-color: lightsalmon;
-}
-
-.right {
-    background-color: lightcoral;
-}
-
-.left:hover {	
-    background-color: whitesmoke;
-    color: lightgreen;		
-}
-
-.middle:hover {	
-    background-color: whitesmoke;
-    color: lightsalmon;		
-}
-.right:hover {	
-    background-color: whitesmoke;
-    color: lightcoral;		
-}
-
-.bio h2 {
-    text-align: center;
-}
-
-.project-card {	
-    text-align: center;	
-    width: 30em;	
-    flex: 0 0 31.5%;	
-    display: flex;	
-    flex-flow: column;	
-    align-content: center;	
-    background-color: #474343a1;	
-    margin: 1rem;
-}	
-
-.project-card p {	
-    text-align: center;	
-    color: rgb(162, 168, 173);	
-    margin: 0 auto;	
-}	
-
-.project-card img {	
-    height: 15em;	
-    width: 30em;	
-    margin: .5em;	
-    align-self: center;	
-    border-inline: 2px 2px #101010;	
-}	
-
-.project-card a {	
-    padding: .5em;	
-}	
-
-.project-card:hover {	
-    opacity: 1;	
-    background-color: #101010;	
-}	
-
-.cardhead {	
-    background-color: #824670;	
-    height: 4em;	
-    text-align: center;	
-    justify-content: center;	
-    border-top-left-radius: 3em;	
-    border-top-right-radius: 3em;	
-    color: whitesmoke;	
-}	

@@ -5,4 +5,8 @@ import data from './helpers/data/projectsData';
 
 const projectCards = data.getProjects();
 
-projects.createProjectCards(projectCards);
+const init = () => {
+  projects.createProjectCards(projectCards);
+};
+
+init();
