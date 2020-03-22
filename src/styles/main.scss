@@ -6,29 +6,18 @@ nav.navbar-light {
 }
 
 body.fullPage {
-  background-color: slategray;
-  color: whitesmoke;
+  background-color: whitesmoke;
+  color: rgb(54, 54, 54);
 }
 
-h1 {
+.fullPage .jumbotron h1 {
   font-family: 'Domine', serif;
-  color: whitesmoke;
 }
 
-p {
-  font-family: 'Montserrat', sans-serif;
-  color: whitesmoke;
+.fullPage p {
+  font-family: 'Open Sans', sans-serif;
 }
 
-.card {
-  margin: 1px;
-  background-color: snow;
-}
-
-.card h1, p{
-  color: slategray;
-}
-
-.card h1 {
-  text-align: center;
+.img-container {
+  margin-left: 8rem;
 }
