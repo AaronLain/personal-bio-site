@@ -8,6 +8,7 @@ const createProjectCards = (project) => {
   domString += `<p class='card-text'>${project.description}</p>`;
   domString += `<p>Technology Used: ${project.techUsed}</p>`;
   domString += `<p class='card-text' style="text-align: center;"><a href=${project.githubUrl}>Github</a></p>`;
+  domString += `<p class='card-text' style="text-align: center;"><a href=${project.url}>URL</a></p>`;
   domString += '</div>';
   domString += '</div>';
 
