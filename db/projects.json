@@ -14,7 +14,7 @@
     "description": "A website for watching adorable bears catch fish.",
     "techUsed": "HTML, CSS, Bootstrap, JavaScript, JQuery",
     "available": true,
-    "url": "https://bear-watcher-12b84.firebaseapp.com/",
+    "url": "https://bear-watcher-12b84.firebaseapp.com",
     "githubUrl": "https://github.com/AaronLain/bear-watcher"
   },
   "project3": {
@@ -23,7 +23,7 @@
     "description": "90's nostalgia for your browser!",
     "techUsed": "HTML, CSS, Bootstrap, jQuery, JavaScript",
     "available": true,
-    "url": "https://tamagotchi-c7078.firebaseapp.com/",
+    "url": "https://tamagotchi-c7078.firebaseapp.com",
     "githubUrl": "https://github.com/AaronLain/tamagotchi"
   }
 }
