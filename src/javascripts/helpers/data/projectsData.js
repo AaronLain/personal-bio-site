@@ -5,7 +5,7 @@ const projects = [
     description: 'A real cute pet adoption website for the lonley and longing.',
     techUsed: 'HTML, CSS, Flexbox, JavaScript',
     available: true,
-    url: 'https://github.com/AaronLain/pet-adoption',
+    url: '',
     githubUrl: 'https://github.com/AaronLain/pet-adoption',
   },
   {
@@ -14,17 +14,18 @@ const projects = [
     description: 'A website for watching adorable bears catch fish.',
     techUsed: 'HTML, CSS, Bootstrap, JavaScript, JQuery',
     available: true,
-    url: 'https://github.com/AaronLain/bear-watcher',
+    url: '',
     githubUrl: 'https://github.com/AaronLain/bear-watcher',
   },
   {
-    title: 'Sorting Hat',
-    screenshot: 'https://i.ibb.co/tpjymVr/Screen-Shot-2020-02-18-at-10-14-35.png',
-    description: 'A sorting portal for students entering Hogwarts.',
-    techUsed: 'HTML, CSS, Bootstrap, JavaScript',
+    title: 'Tamagotchi',
+    // eslint-disable-next-line max-len
+    screenshot: 'https://camo.githubusercontent.com/a420feddb8665ba0549ad41da66958b77f74a57c/68747470733a2f2f692e6962622e636f2f35474e634c57742f53637265656e2d53686f742d323032302d30332d31302d61742d31352d35362d31352e706e67',
+    description: "90's nostalgia for your browser!",
+    techUsed: 'HTML, CSS, Bootstrap, jQuery, JavaScript',
     available: true,
-    url: 'https://github.com/AaronLain/sorting-hat',
-    githubUrl: 'https://github.com/AaronLain/sorting-hat',
+    url: '',
+    githubUrl: 'https://github.com/AaronLain/tamagotchi',
   },
 ];
 
