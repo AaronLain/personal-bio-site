@@ -10,14 +10,17 @@ body.fullPage {
   color: rgb(54, 54, 54);
 }
 
-.fullPage .jumbotron h1 {
+.jumbotron {
   font-family: 'Domine', serif;
+  background-image: url("../../assets/Cropped.png");
+  background-size: cover;
+  height: 100%;
+  width: auto;
+
 }
 
 .fullPage p {
   font-family: 'Open Sans', sans-serif;
 }
 
-.img-container {
-  margin-left: 8rem;
-}
+
