@@ -2,7 +2,7 @@
 // @import "~@fortawesome/fontawesome-free/css/all.min.css";
 
 nav.navbar-light {
-  background-color: rgba(129, 129, 129, 0.96) !important;
+  background-color: rgba(255, 255, 255, 0.89) !important;
 }
 
 body.fullPage {
@@ -12,11 +12,10 @@ body.fullPage {
 
 .jumbotron {
   font-family: 'Domine', serif;
-  background-image: url("../../assets/Cropped.png");
+  // background-image: url("../../assets/Cropped.png");
   background-size: cover;
   height: 100%;
   width: auto;
-
 }
 
 .fullPage p {
