@@ -1,7 +1,8 @@
 const darkMode = () => {
-  document.body.classList.toggle('dark-mode');
+  $('main').toggleClass('dark-mode');
   $('div.card').toggleClass('bg-dark');
   $('nav.navbar').toggleClass('bg-dark');
 };
 
-export default { darkMode };
+$(document).on('click', 'a.logo-btn', darkMode);
+// export default { darkMode };

@@ -1,6 +1,6 @@
 const createProjectCards = (project) => {
   let domString = '';
-  domString += '<div class="card border-dark mb-3 ">';
+  domString += `<div id=${project} class="card border-dark mb-3 ">`;
   domString += `<img src=${project.screenshot} class="card-img-top" style="margin-top: 1.5rem;" alt="..."/>`;
   domString += '<div class="card-body">';
   domString += `<p class='card-text'>${project.description}</p>`;

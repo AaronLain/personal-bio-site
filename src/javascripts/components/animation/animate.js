@@ -7,8 +7,9 @@ const pulseMouseOverJumbotron = () => {
 };
 
 const pulseMouseOverCards = () => {
-  $('.card').hover(() => {
-    $('p.card-text').toggleClass('animated').toggleClass('pulse');
+  $('.card').on('mouseover', () => {
+    $('.card-text').toggleClass('animated').toggleClass('pulse');
+    // $('.card-text').toggleClass('animated').toggleClass('pulse');
   });
 };
 
