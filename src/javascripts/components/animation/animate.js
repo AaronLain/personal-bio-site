@@ -6,11 +6,4 @@ const pulseMouseOverJumbotron = () => {
   });
 };
 
-const pulseMouseOverCards = () => {
-  $('.card').on('mouseover', () => {
-    $('.card-text').toggleClass('animated').toggleClass('pulse');
-    // $('.card-text').toggleClass('animated').toggleClass('pulse');
-  });
-};
-
-export default { pulseMouseOverJumbotron, pulseMouseOverCards };
+export default { pulseMouseOverJumbotron };

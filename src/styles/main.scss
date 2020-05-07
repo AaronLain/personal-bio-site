@@ -11,15 +11,30 @@ body.fullPage {
 }
 
 .jumbotron {
+  -webkit-box-shadow: -23px 38px 16px 0px rgba(0,0,0,0.4);
+  -moz-box-shadow: -23px 38px 16px 0px rgba(0,0,0,0.4);
+  box-shadow: -23px 38px 16px 0px rgba(0,0,0,0.4);
   font-family: 'Domine', serif;
-  // background-image: url("../../assets/Cropped.png");
+  background-image: url("../../assets/cropped_AJL_BW.jpg");
   background-size: cover;
-  height: 100%;
-  width: auto;
+  height: auto;
+  width: 100%;
+  color: #d8d8d8
 }
 
 .fullPage p {
   font-family: 'Open Sans', sans-serif;
+}
+
+.card {
+  -webkit-box-shadow: -23px 38px 16px 0px rgba(0,0,0,0.4);
+  -moz-box-shadow: -23px 38px 16px 0px rgba(0,0,0,0.4);
+  box-shadow: -23px 38px 16px 0px rgba(0,0,0,0.4);
+}
+
+img.profile {
+  width: 100%;
+  height: auto;
 }
 
 
