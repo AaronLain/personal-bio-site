@@ -11,17 +11,11 @@ body.fullPage {
 }
 
 .jumbotron {
-  -webkit-box-shadow: -23px 38px 16px 0px rgba(0,0,0,0.4);
-  -moz-box-shadow: -23px 38px 16px 0px rgba(0,0,0,0.4);
-  box-shadow: -23px 38px 16px 0px rgba(0,0,0,0.4);
   font-family: 'Domine', serif;
+  color: #d8d8d8;
   background-image: url("../../assets/cropped_AJL_BW.jpg");
   background-size: cover;
-  height: auto;
-  width: 100%;
-  color: #d8d8d8
 }
-
 .fullPage p {
   font-family: 'Open Sans', sans-serif;
 }
