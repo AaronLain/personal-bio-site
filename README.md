@@ -4,7 +4,4 @@ A site dedicated to the personal projects of Aaron Joel Lain during the course o
 ## Screenshots
 ![](https://i.ibb.co/rxjZxvW/Screen-Shot-2020-03-22-at-18-57-27.png)
 ## How To Run
-1. Clone down this repo
-1. run npm install
-1. after installation, run npm start from the root directory
-1. Profit??
+Just go to [here!](https://personal-bio-753a0.web.app/)
