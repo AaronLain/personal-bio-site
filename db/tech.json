@@ -1,5 +1,5 @@
 {
-  "project1": {
+  "tech1": {
     "title": "Pet Adoption",
     "screenshot": "https://i.ibb.co/ysVkhXK/Pet-Adoption-SS.jpg",
     "description": "A real cute pet adoption website for the lonley and longing.",
@@ -8,7 +8,7 @@
     "url": "",
     "githubUrl": "https://github.com/AaronLain/pet-adoption"
   },
-  "project2": {
+  "tech2": {
     "title": "Bear Watcher",
     "screenshot": "https://i.ibb.co/f146635/Screen-Shot-2020-03-02-at-18-11-00.png",
     "description": "A website for watching adorable bears catch fish.",
@@ -17,22 +17,13 @@
     "url": "https://bear-watcher-12b84.firebaseapp.com",
     "githubUrl": "https://github.com/AaronLain/bear-watcher"
   },
-  "project3": {
+  "tech3": {
     "title": "Tamagotchi",
     "screenshot": "https://camo.githubusercontent.com/a420feddb8665ba0549ad41da66958b77f74a57c/68747470733a2f2f692e6962622e636f2f35474e634c57742f53637265656e2d53686f742d323032302d30332d31302d61742d31352d35362d31352e706e67",
     "description": "90's nostalgia for your browser!",
     "techUsed": "HTML, CSS, Bootstrap, jQuery, JavaScript",
     "available": true,
     "url": "https://tamagotchi-c7078.firebaseapp.com",
-    "githubUrl": "https://github.com/AaronLain/tamagotchi"
-  },
-  "project4": {
-    "title": "Pinterest",
-    "screenshot": "https://camo.githubusercontent.com/a594b681cbfb48ada19090737f6bee0402bb1a80/68747470733a2f2f692e6962622e636f2f6a3453733852482f53637265656e2d53686f742d323032302d30342d31352d61742d32322d31322d31372e706e67",
-    "description": "Totally original idea!",
-    "techUsed": "HTML, CSS, Bootstrap, jQuery, axios, Bootstrap 4, JavaScript, full CRUD",
-    "available": true,
-    "url": "https://pinterest-a948b.web.app/",
     "githubUrl": "https://github.com/AaronLain/tamagotchi"
   }
 }

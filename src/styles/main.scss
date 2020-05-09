@@ -2,7 +2,7 @@
 // @import "~@fortawesome/fontawesome-free/css/all.min.css";
 
 nav.navbar-light {
-  background-color: rgba(129, 129, 129, 0.96) !important;
+  background-color: rgba(255, 255, 255, 0.89) !important;
 }
 
 body.fullPage {
@@ -10,14 +10,25 @@ body.fullPage {
   color: rgb(54, 54, 54);
 }
 
-.fullPage .jumbotron h1 {
+.jumbotron {
   font-family: 'Domine', serif;
+  color: #d8d8d8;
+  background-image: url("../../assets/cropped_AJL_BW.jpg");
+  background-size: cover;
 }
-
 .fullPage p {
   font-family: 'Open Sans', sans-serif;
 }
 
-.img-container {
-  margin-left: 8rem;
+.card {
+  -webkit-box-shadow: -23px 38px 16px 0px rgba(0,0,0,0.4);
+  -moz-box-shadow: -23px 38px 16px 0px rgba(0,0,0,0.4);
+  box-shadow: -23px 38px 16px 0px rgba(0,0,0,0.4);
 }
+
+img.profile {
+  width: 100%;
+  height: auto;
+}
+
+
