@@ -1,5 +1,11 @@
 @import "~bootstrap/scss/bootstrap";
 // @import "~@fortawesome/fontawesome-free/css/all.min.css";
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@300;700;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lora:ital,wght@1,483&display=swap');
+
+html {
+  scroll-behavior: smooth;
+}
 
 nav.navbar-light {
   background-color: rgba(255, 255, 255, 0.89) !important;
@@ -8,27 +14,69 @@ nav.navbar-light {
 body.fullPage {
   background-color: whitesmoke;
   color: rgb(54, 54, 54);
+  width: 100%;
 }
 
-.jumbotron {
-  font-family: 'Domine', serif;
-  color: #d8d8d8;
-  background-image: url("../../assets/cropped_AJL_BW.jpg");
+.img-container {
+  background-image: url(../../assets/AJL-BW-Hero.jpg);
+  height: 90%;
+  background-position: top;
+  background-repeat: no-repeat;
   background-size: cover;
+  position: relative;
 }
+
+.inner {
+  text-align: left;
+  position: absolute;
+  width: 100%;
+  color: whitesmoke;
+  height: auto;
+  margin-top: 1rem;
+}
+
+h1 {
+  font-size: 7em;
+  font-family: 'Lora', serif;
+  font-weight: 900;
+  margin-top: 1rem;
+  margin-left: 3rem;
+}
+
+h2 {
+  margin: 1rem;
+  font-family: 'Source Sans Pro', sans-serif;
+  font-weight: 300;
+  margin-left: 3rem;
+}
+
+h2.title {
+  margin: auto;
+  text-align: center;
+}
+
+.btn {
+  margin: 1rem 1rem 1rem 3rem;
+  width: 33%;
+}
+
+.bio-container {
+  text-align: center;
+  background-color: black;
+  color: whitesmoke;
+}
+
 .fullPage p {
-  font-family: 'Open Sans', sans-serif;
+  font-family: 'Source Sans Pro', sans-serif;
+  font-weight: 300;
 }
 
 .card {
   -webkit-box-shadow: -23px 38px 16px 0px rgba(0,0,0,0.4);
   -moz-box-shadow: -23px 38px 16px 0px rgba(0,0,0,0.4);
   box-shadow: -23px 38px 16px 0px rgba(0,0,0,0.4);
+  margin: 1rem;
 }
 
-img.profile {
-  width: 100%;
-  height: auto;
-}
 
 
