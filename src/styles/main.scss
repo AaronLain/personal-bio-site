@@ -61,14 +61,19 @@ h2.title {
 }
 
 .bio-container {
-  text-align: center;
   background-color: black;
   color: whitesmoke;
+  margin-top: 3rem;
 }
 
 .fullPage p {
   font-family: 'Source Sans Pro', sans-serif;
   font-weight: 300;
+}
+
+.paragraph-container {
+  margin: 5rem;
+  text-align: left;
 }
 
 .card {
