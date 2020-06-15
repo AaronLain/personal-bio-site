@@ -6,7 +6,6 @@ const buildProjectBoard = () => {
   projectsData.getProjects()
     .then((projects) => {
       let domString = '';
-      console.error(projects);
       projects.forEach((project) => {
         domString += projectComponent.createProjectCards(project);
       });
